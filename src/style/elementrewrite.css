@@ -1,0 +1,46 @@
+* {
+  /* 分页器背景色修改 */
+  --el-pagination-button-bg-color: #fff;
+  /* 去除表格的底部边框 */
+  --el-table-border-color: transparent;
+}
+/* 左侧菜单栏激活时颜色 */
+.el-sub-menu.is-active > .el-sub-menu__title {
+  color: #1891ff;
+}
+.el-menu-item.is-active {
+  color: #1891ff;
+}
+/* 横向表单的外边距样式 */
+.el-form--inline .el-form-item {
+  margin-bottom: 0;
+  margin-right: 24px !important;
+}
+/* 布局内容样式 */
+.el-main {
+  padding: 0 !important;
+}
+/* 表格表头文字样式  */
+.el-table th.el-table__cell {
+  font-size: 14px;
+  font-weight: 500;
+  color: #262626;
+  background-color: #fafafa !important;
+}
+/* 对话框标题部分 */
+.el-dialog__header {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 52px;
+  line-height: 52px;
+  color: #1890ff;
+  background-color: #e6f7ff;
+}
+/* 分页器边框颜色 */
+.el-pagination.is-background .el-pager li {
+  border: 1px solid #ddd;
+}
+/* 表格去除内边距 */
+.el-table .el-table__cell {
+  /* padding: 0 !important; */
+}
